@@ -8,5 +8,6 @@ describe('allergies') do
 
   it('returns multiple allergies when a score is given') do
     expect(allergies(3)).to(eq(['eggs', 'peanuts']))
+
   end
 end
